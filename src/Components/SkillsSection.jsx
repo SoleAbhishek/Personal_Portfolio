@@ -81,49 +81,49 @@ export const SkillsSection = () => {
     //     </div>
     //   </div>
     // </section>
-    <section class="max-w-xl mx-auto mt-12">
+    <section className="max-w-xl mx-auto mt-12">
       <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
             My <span className="text-primary"> Skills</span>
       </h2>
-  <div class="flex flex-wrap gap-3">
-    <span class="flex items-center gap-2 bg-neutral-800 text-white px-4 py-2 rounded-full text-base font-medium shadow">
-      <i class="devicon-html5-plain colored text-xl"></i>
+  <div className="flex flex-wrap gap-3">
+    <span className="flex items-center gap-2 bg-neutral-800 text-white px-4 py-2 rounded-full text-base font-medium shadow">
+      <i className="devicon-html5-plain colored text-xl"></i>
       HTML
     </span>
-    <span class="flex items-center gap-2 bg-neutral-800 text-white px-4 py-2 rounded-full text-base font-medium shadow">
-      <i class="devicon-css3-plain colored text-xl"></i>
+    <span className="flex items-center gap-2 bg-neutral-800 text-white px-4 py-2 rounded-full text-base font-medium shadow">
+      <i className="devicon-css3-plain colored text-xl"></i>
       CSS
     </span>
-    <span class="flex items-center gap-2 bg-neutral-800 text-white px-4 py-2 rounded-full text-base font-medium shadow">
-      <i class="devicon-java-plain colored text-xl"></i>
+    <span className="flex items-center gap-2 bg-neutral-800 text-white px-4 py-2 rounded-full text-base font-medium shadow">
+      <i className="devicon-java-plain colored text-xl"></i>
       Java
     </span>
-    <span class="flex items-center gap-2 bg-neutral-800 text-white px-4 py-2 rounded-full text-base font-medium shadow">
-      <i class="devicon-javascript-plain colored text-xl"></i>
+    <span className="flex items-center gap-2 bg-neutral-800 text-white px-4 py-2 rounded-full text-base font-medium shadow">
+      <i className="devicon-javascript-plain colored text-xl"></i>
       JavaScript
     </span>
-    <span class="flex items-center gap-2 bg-neutral-800 text-white px-4 py-2 rounded-full text-base font-medium shadow">
-      <i class="devicon-react-original colored text-xl"></i>
+    <span className="flex items-center gap-2 bg-neutral-800 text-white px-4 py-2 rounded-full text-base font-medium shadow">
+      <i className="devicon-react-original colored text-xl"></i>
       React
     </span>
-    <span class="flex items-center gap-2 bg-neutral-800 text-white px-4 py-2 rounded-full text-base font-medium shadow">
-      <i class="devicon-bootstrap-plain colored text-xl"></i>
+    <span className="flex items-center gap-2 bg-neutral-800 text-white px-4 py-2 rounded-full text-base font-medium shadow">
+      <i className="devicon-bootstrap-plain colored text-xl"></i>
       Bootstrap
     </span>
-    <span class="flex items-center gap-2 bg-neutral-800 text-white px-4 py-2 rounded-full text-base font-medium shadow">
-      <i class="devicon-github-original colored text-xl"></i>
+    <span className="flex items-center gap-2 bg-neutral-800 text-white px-4 py-2 rounded-full text-base font-medium shadow">
+      <i className="devicon-github-original colored text-xl"></i>
       Git/Github
     </span>
-    <span class="flex items-center gap-2 bg-neutral-800 text-white px-4 py-2 rounded-full text-base font-medium shadow">
-      <i class="devicon-reactbootstrap-plain colored text-xl"></i>
+    <span className="flex items-center gap-2 bg-neutral-800 text-white px-4 py-2 rounded-full text-base font-medium shadow">
+      <i className="devicon-reactbootstrap-plain colored text-xl"></i>
       ReactBootstrap
     </span>
-    <span class="flex items-center gap-2 bg-neutral-800 text-white px-4 py-2 rounded-full text-base font-medium shadow">
-      <i class="devicon-mysql-plain colored text-xl"></i>
+    <span className="flex items-center gap-2 bg-neutral-800 text-white px-4 py-2 rounded-full text-base font-medium shadow">
+      <i className="devicon-mysql-plain colored text-xl"></i>
       SQL
     </span>
-    <span class="flex items-center gap-2 bg-neutral-800 text-white px-4 py-2 rounded-full text-base font-medium shadow">
-      <i class="devicon-tailwindcss-plain colored text-xl"></i>
+    <span className="flex items-center gap-2 bg-neutral-800 text-white px-4 py-2 rounded-full text-base font-medium shadow">
+      <i className="devicon-tailwindcss-plain colored text-xl"></i>
       Tailwind CSS
     </span>
   </div>
