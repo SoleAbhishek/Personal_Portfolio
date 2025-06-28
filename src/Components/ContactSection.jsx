@@ -8,21 +8,34 @@ import {
   Twitch,
   Twitter,
 } from "lucide-react";
-import { useState } from "react";
+import { useRef, useState } from "react";
+import emailjs from "@emailjs/browser"
 
 export const ContactSection = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [successMessage, setSuccessMessage] = useState("");
+  const form = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
     setIsSubmitting(true);
 
-    setTimeout(() => {
+    emailjs.sendForm('service_npsa7ig','template_9p71o47',form.current,'0Amg0T06nsCO3czSW')
+    .then((result)=>{
       setSuccessMessage("Thank you for your message. I'll get back to you soon.");
       setIsSubmitting(false);
-    }, 1500);
+    },
+    (error)=>{
+      console.log(error.text);
+      setSuccessMessage("Something went wrong. Please try again later.");
+      setIsSubmitting(false);
+    });
+
+    // setTimeout(() => {
+    //   setSuccessMessage("Thank you for your message. I'll get back to you soon.");
+    //   setIsSubmitting(false);
+    // }, 1500);
   };
   return (
     <section id="contact" className="py-24 px-4 relative bg-secondary/30">
@@ -107,7 +120,7 @@ export const ContactSection = () => {
           >
             <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
 
-            <form className="space-y-6" onSubmit={handleSubmit}>
+            <form className="space-y-6" onSubmit={handleSubmit} ref={form}>
               <div>
                 <label
                   htmlFor="name"
